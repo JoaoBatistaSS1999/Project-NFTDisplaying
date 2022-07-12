@@ -7,3 +7,5 @@ declare global {
     ethereum?: MetaMaskInpageProvider;
   }
 }
+
+// npm install @metamask/providers
