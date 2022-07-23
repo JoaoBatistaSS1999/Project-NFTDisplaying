@@ -11,6 +11,12 @@ const GlobalStyle = createGlobalStyle`
   body {
     background: #f0f8ff;
   }
+
+  button {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+  }
 `;
 
 export default GlobalStyle;

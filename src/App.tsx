@@ -1,13 +1,15 @@
-import React from "react";
 import Header from "./components/header";
+import MainContent from "./components/mainContent";
+import { ContextProvider } from "./context/appContext";
 import GlobalStyle from "./styles/GloblalStyles";
 
 function App() {
   return (
-    <React.Fragment>
+    <ContextProvider>
       <GlobalStyle />
       <Header />
-    </React.Fragment>
+      <MainContent />
+    </ContextProvider>
   );
 }
 
